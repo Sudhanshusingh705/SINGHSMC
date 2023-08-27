@@ -6,6 +6,7 @@ import hero5 from "../assets/hero/hero5.png";
 import hero6 from "../assets/hero/hero6.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'animate.css/animate.min.css';
 
 import "../screen/Home.css";
 import "./Navbar.css";
@@ -29,16 +30,16 @@ const NavBarWithImage = () => {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
-        interval={1500} // Set the interval between slides
+        interval={1200} // Set the interval between slides
       >
         <div className="image-container" style={{ position: "relative" }}>
           <img src={hero4} alt="Background Image" />
           <div className="centered-content text-white">
-            <h2>Find Over 25000+ Colleges in India</h2>
+            <h2 className="animate__animated animate__heartBeat" style={{fontSize: '42px'}}>Find Over 25000+ Colleges in India</h2>
 
             <form className="example">
               <input type="text" placeholder="Search.." name="search" />
-              <button type="submit">
+              <button type="submit" style={{marginTop: '11px'}}>
                 <i className="fa fa-search"></i>
               </button>
             </form>
@@ -54,11 +55,11 @@ const NavBarWithImage = () => {
         <div className="image-container" style={{ position: "relative" }}>
           <img src={hero3} alt="Background Image" />
           <div className="centered-content text-white">
-            <h2>Find Over 25000+ Colleges in India</h2>
+            <h2 className="animate__animated animate__heartBeat" style={{fontSize: '42px'}}>Find Over 25000+ Colleges in India</h2>
 
             <form className="example">
               <input type="text" placeholder="Search.." name="search" />
-              <button type="submit">
+              <button type="submit" style={{marginTop: '11px'}}>
                 <i className="fa fa-search"></i>
               </button>
             </form>
@@ -74,11 +75,11 @@ const NavBarWithImage = () => {
         <div className="image-container" style={{ position: "relative" }}>
           <img src={hero5} alt="Background Image" />
           <div className="centered-content text-white">
-            <h2>Find Over 25000+ Colleges in India</h2>
+            <h2 className="animate__animated animate__heartBeat" style={{fontSize: '42px'}}>Find Over 25000+ Colleges in India</h2>
 
             <form className="example">
               <input type="text" placeholder="Search.." name="search" />
-              <button type="submit">
+              <button type="submit" style={{marginTop: '11px'}}>
                 <i className="fa fa-search"></i>
               </button>
             </form>
@@ -94,11 +95,11 @@ const NavBarWithImage = () => {
         <div className="image-container" style={{ position: "relative" }}>
           <img src={hero6} alt="Background Image" />
           <div className="centered-content text-white">
-            <h2>Find Over 25000+ Colleges in India</h2>
+            <h2 className="animate__animated animate__heartBeat" style={{fontSize: '42px'}}>Find Over 25000+ Colleges in India</h2>
 
             <form className="example">
               <input type="text" placeholder="Search.." name="search" />
-              <button type="submit">
+              <button type="submit" style={{marginTop: '11px'}}>
                 <i className="fa fa-search"></i>
               </button>
             </form>

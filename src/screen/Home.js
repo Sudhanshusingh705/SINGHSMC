@@ -7,8 +7,6 @@ import commerce from "../assets/icons/commerce.png";
 import arts from "../assets/icons/art.png";
 import medical from "../assets/icons/medical.png";
 import design from "../assets/icons/design.png";
-/*top collections*/
-/*Explore Program*/
 
 import smb from "../assets/topuniversities/smb.png";
 import smb1 from "../assets/topuniversities/smb1.png";
@@ -23,9 +21,6 @@ import ap from "../assets/latestnotificaton/ap.jpg";
 
 /*Top Universities*/
 import "./Home.css";
-/* Hero */
-/*PF*/
-/*spacer */
 import { MDBCardImage } from "mdb-react-ui-kit";
 import { MDBCol, MDBContainer } from "mdb-react-ui-kit";
 import { MDBRow } from "mdb-react-ui-kit";
